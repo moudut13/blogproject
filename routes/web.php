@@ -24,3 +24,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/dashboard',function (){
     return view('backend.dashboard.home');
 });
+
+Route::get('/saas',function (){
+    return view('auth.passwords.email');
+});
+
+Route::get('/saasd',function (){
+    return view('auth.passwords.reset'
+    );
+});

@@ -22,7 +22,7 @@
                     <!-- /.checkbox -->
                 </div>
                 <!-- /.pull-left -->
-                <div class="pull-right"><a href="#" class="a-link"><i class="fa fa-unlock-alt"></i>Forgot password?</a></div>
+                <div class="pull-right"><a href="{{ route('password.request') }}" class="a-link"><i class="fa fa-unlock-alt"></i>Forgot password?</a></div>
                 <!-- /.pull-right -->
             </div>
             <!-- /.clearfix -->
